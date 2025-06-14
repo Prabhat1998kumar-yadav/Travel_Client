@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://travel-server-lime.vercel.app/'
+  baseURL: 'https://travel-server-nu.vercel.app/'
 });
 
 export const getDestinations = async () => {
